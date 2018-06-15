@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+		}
+		html,body{
+			height: 100%;
+			width: 100%;
+		}
+		#cont{
+			/*此元素会作为块级表格来显示（类似 <table>），*/
+			display: table;
+			height: 100%;
+			width: 100%;
+		}
+		#box{
+			/*此元素会作为一个表格单元格显示（类似 <td> 和 <th>）*/
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+		}
+	</style>
+	<body>
+		<div id="cont">
+			<div id="box">
+				<img src="img/ps.png"/>			
+			</div>
+		</div>
+	</body>
+</html>
